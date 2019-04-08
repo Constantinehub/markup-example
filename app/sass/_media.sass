@@ -1,0 +1,1041 @@
+@import "bourbon"
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1240px)
+	.search__form
+		min-width: 330px
+
+	.menu__item
+		margin-right: 20px
+
+	//Keywords styles
+
+	.content__container
+		max-width: 1060px
+
+	//Sites styles
+
+	.stat_position2
+		margin-right: 0
+
+	.stat_position3
+		display: none
+
+@media only screen and (max-width : 1200px)
+	.header__logo
+		margin-left: 15px
+
+	.header__search
+		margin-left: 20px
+		.search__form
+			min-width: 250px
+			input
+				padding-left: 35px
+				&::placeholder
+					font-size: 12px
+			button
+				width: 25px
+
+	.mobile_head
+		.btn_signup
+			margin-right: 30px
+
+	.header__right
+		margin-right: 15px
+
+	.menu__item
+		margin-right: 10px
+
+	.header__language
+		margin-left: 15px
+
+	.header__profile
+		margin-left: 10px
+
+	.language .jq-selectbox__select
+		padding: 0 10px
+
+	.fscreen__wr
+		margin-top: 80px
+
+	.accordion__content
+		width: 545px
+		height: 400px
+		right: -2px
+
+	.free_box
+		margin-left: 20px
+
+	.free__form
+		margin-right: 20px
+		input
+			width: 320px
+
+	.plans__descr
+		width: 25%
+
+	.plans__wrap
+		width: 75%
+
+	.plans__item
+		width: 220px
+		padding-left: 10px
+		padding-right: 10px
+
+	.latest__img
+		height: 128px
+		max-height: 128px
+
+	.svg_list
+		width: 150px
+		height: 158px
+
+	.svg_cloud
+		width: 150px
+		height: 156px
+		top: 70px
+
+	//Keywords style
+
+	.content__container
+		max-width: 840px
+
+	.banner_large
+		display: none
+
+	//Sites style
+
+	.t-column__keywords
+		min-width: 33.5%
+
+	.unlog_sites
+		.main__content
+			max-width: 100%
+		.main__sidebar
+			display: none
+
+	//Watchlist-sites styles
+
+	.watchlist-sites__wr
+		flex-wrap: wrap
+
+	.watch__item
+		width: calc(50% - 2 * 10px)
+
+	//Watchlist-keywords styles
+
+	.watch-key__head
+		width: 840px
+
+	.watch-key__body
+		width: 840px
+
+	.watch-key__column1
+		padding-left: 20px
+		max-width: 90%
+		overflow: hidden
+		text-overflow: ellipsis
+		white-space: nowrap
+
+	.watch-key__column2
+		min-width: 24.18%
+
+	.watch-key__column3
+		min-width: 23.18%
+
+	.watch-key__column4
+		min-width: 13.43%
+
+	.watch-key__column5
+		min-width: 18.03%
+
+	.watch-key__sitelink
+		width: 100px
+		overflow: hidden
+		text-overflow: ellipsis
+		white-space: nowrap
+
+	.watch-key__sitepos
+		margin-left: 10px
+
+	//Watchlist-list styles
+
+	.watchlists__item
+		width: calc(33.33% - 2 * 10px)
+
+	.watchlists__add
+		width: calc(33.33% - 2 * 10px)
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.mobile_head
+		display: flex
+
+	.tools
+		min-height: auto
+		padding: 60px 0
+
+	.tools__wr
+		.container
+			padding-left: 0
+			padding-right: 0
+
+	.accordion
+		padding-left: 15px
+		padding-right: 15px
+		max-width: 100%
+		margin-top: 60px
+
+	.accordion__content
+		display: none
+
+	.switch__item
+		margin-bottom: 0
+		padding: 15px 0
+		border-bottom: 1px dashed rgba(0,0,0,.2)
+		&:last-child
+			border-bottom: none
+		&:before
+			top: 33px
+			left: calc(-100% - 20px)
+
+	.switch__name
+		position: relative
+		&:after
+			content: ''
+			position: absolute
+			right: 0
+			top: 50%
+			margin-top: -3.5px
+			display: inline-block
+			width: 14px
+			height: 7px
+			background-image: url("../img/ic_drop.png")
+			transition: all 0.3s linear
+
+	.switch__active
+		.switch__name
+			&:after
+				transform: rotateX(180deg)
+
+	.free_box
+		margin-left: 0
+		flex-direction: row
+		justify-content: space-between
+
+	.free__utp
+		width: 50%
+
+	.free-utp_1
+		font-size: 1.7em
+
+	.free-utp_2
+		font-size: 1.2em
+
+	.free__form
+		width: 45%
+		margin: 0
+		flex-direction: column
+		div
+			width: 100%
+		input
+			width: 100%
+		.form__btn
+			width: 100%
+			margin-top: 10px
+			margin-left: 0
+
+	.plans__descr
+		width: 100%
+		padding-top: 30px
+
+	.plans-descr__text
+		margin-top: 30px
+
+	.plans__control
+		justify-content: center
+
+	.plans__title
+		br
+			display: none
+
+	.plans__wrap
+		width: 100%
+		margin-top: 40px
+
+	.latest
+		max-height: 100%
+
+	.latest__controls
+		margin-bottom: 40px
+
+	.latest__slider
+		.slick-list
+			width: 100%
+
+	.list__item
+		padding: 18px 30px
+
+	.footer
+		padding: 0 20px
+
+	//Keywords style
+
+	.extra_menu
+		display: none
+
+	.keywords__content-full
+		margin: 0
+
+	.main__sidebar
+		display: none
+
+	.main__content
+		margin-right: 0
+
+	//Sites style
+
+	.topsite__descr
+		br
+			display: none
+
+	.stat_position2
+		min-width: 380px
+
+	.statistic__item
+		margin-bottom: 10px
+
+	.state__switch
+		margin-left: auto
+
+	.new-lost__keywords
+		.stat__calendar
+			display: none
+		.stat__graph
+			margin-right: 0
+
+	.block__table
+		overflow-y: hidden
+		overflow-x: scroll
+
+	.table__outputs
+		width: 720px
+
+	.t-column__words
+		padding-right: 20px
+
+	//Watchlist-keywords styles
+
+	.watch-key__table
+		overflow-x: scroll
+
+	.watch-key__head
+		padding: 0 15px
+
+	.watch-key__body
+		padding: 0 15px
+
+	//Watchlist list style
+
+	.watchlists__name
+		padding-left: 0
+
+	.watchlists__body
+		padding: 10px 5px
+
+	.watchlists__line
+		div
+			&:nth-child(1)
+				width: 70%
+			&:nth-child(2)
+				width: 30%
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.wrapper
+		margin-top: 50px
+		min-height: calc(100vh - 50px)
+
+	.header
+		height: 50px
+
+	.header__logo
+		margin-left: 15px
+		max-width: 117px
+		a
+			display: block
+			img
+				width: 100%
+
+	.svg_logo
+		max-width: 117px
+
+	.mobile_head
+		margin-right: 15px
+		.btn_signup
+			width: 95px
+			height: 30px
+			margin-right: 20px
+			font-size: 0.8571428571428571em
+			line-height: 30px
+
+	.mobile_btn
+		width: 20px
+
+	.fscreen
+		min-height: 518px
+
+	.fscreen__wr
+		max-width: 100%
+		margin-top: 50px
+
+	.fscreen__utp
+		font-size: 1.7857142857142858em
+		line-height: 28px
+
+	.fscreen__text
+		margin-top: 25px
+		font-size: 1.1428571428571428em
+		line-height: 25px
+
+	.fscreen__form
+		max-width: 370px
+		margin-top: 45px
+		flex-wrap: wrap
+		justify-content: center
+		input
+			width: 100%
+		.form__btn
+			width: 100%
+			max-width: 370px
+			margin-top: 10px
+			margin-left: 0
+
+	.trusted__wr
+		min-height: 200px
+		flex-direction: column
+
+	.trusted__left
+		position: relative
+		width: 100%
+		margin-right: 0
+
+	.trusted__title
+		font-size: 1.7857142857142858em
+
+	.trusted__controls
+		position: absolute
+		right: 0
+		bottom: 0
+		margin-top: 0
+
+	.trusted__slider
+		width: 100%
+		margin-top: 40px
+
+	.trusted__item
+		margin: 0 17px
+		height: 50px
+		img
+			width: auto
+			height: auto
+			max-width: 100%
+			max-height: 100%
+
+	.tools
+		padding: 44px 0 0
+
+	.title
+		font-size: 1.7857142857142858em
+
+	.accordion
+		margin-top: 30px
+
+	.switch__item
+		&:before
+			display: none
+
+	.switch__name
+		font-size: 1.2857142857142858em
+
+	.switch__text
+		font-size: 1.0714285714285714em
+		line-height: 23px
+
+	.switch__item
+		padding: 13px 0
+
+	.free_box
+		min-height: 263px
+		margin-left: 0
+		flex-direction: column
+		justify-content: flex-start
+
+	.free__utp
+		width: 100%
+		max-width: 370px
+		margin-top: 35px
+		margin-left: auto
+		margin-right: auto
+		line-height: 30px
+
+	.free-utp_1
+		font-size: 1.7em
+		line-height: 30px
+
+	.style_bold
+		font-size: 20px
+
+	.free-utp_2
+		font-size: 1.2em
+		line-height: 30px
+
+	.free__form
+		width: 100%
+		max-width: 370px
+		margin-top: 36px
+		margin-right: 0
+		flex-direction: column
+		input
+			width: 100%
+			padding-left: 40px
+			background-position: left 15px center
+		.form__btn
+			width: 100%
+			margin-left: 0
+			margin-top: 10px
+
+	.plans
+		padding: 40px 0
+		.container
+			padding-left: 0
+			padding-right: 0
+
+	.plans__descr
+		padding-top: 0
+		padding-left: 15px
+		padding-right: 15px
+
+	.plans-descr__text
+		margin-top: 13px
+		padding-right: 0
+		font-size: 1.0714285714285714em
+		line-height: 20px
+
+	.plans__wrap
+		margin-top: 30px
+
+	.plans__control
+		margin-bottom: 30px
+		justify-content: center
+	
+	.plans__box
+		min-width: 320px
+		.slick-list
+			padding: 10px 0 !important
+		.slick-slide
+			outline: none
+		.slick-track
+			.plans__item
+				width: 240px
+				padding-left: 20px
+				padding-right: 20px
+				display: flex !important
+				margin: 0 10px
+		.slick-dots
+			bottom: -20px
+			li
+				width: 15px
+				height: 15px
+				margin: 0
+				button
+					width: 15px
+					height: 15px
+					&:before
+						content: ''
+						width: 9px
+						height: 9px
+						top: 0
+						left: 0
+						right: 0
+						bottom: 0
+						margin: auto
+						opacity: 1
+						border: 1px solid #b5b5b5
+						border-radius: 50%
+						background-color: #fff
+			li.slick-active
+				button
+					&:before
+						border-color: $accent
+						background-color: $accent
+
+	.latest
+		padding: 40px 0
+
+	.latest__item
+		max-width: 300px
+		margin: 0 auto
+
+	.latest__head
+		margin-bottom: 30px
+		display: flex
+		justify-content: space-between
+		align-items: center
+
+	.latest__title
+		font-size: 1.7857142857142858em
+
+	.latest__controls
+		margin-bottom: 0
+		margin-top: 0
+
+	.latest__img
+		height: auto
+		max-height: 100%
+
+	.list
+		padding: 0
+		.container
+			padding-left: 0
+			padding-right: 0
+
+	.list__item
+		padding: 15px
+
+	.svg_list
+		top: auto
+		bottom: 0
+		right: 0
+		height: 156px
+		transform: translateY(0)
+
+	.svg_cloud
+		top: auto
+		bottom: 0
+		right: -30px
+
+
+	.footer
+		height: auto
+		padding: 30px 15px
+		flex-direction: column-reverse
+		align-items: flex-start
+
+	.footer__menu
+		margin-bottom: 30px
+		display: flex
+		flex-direction: column
+		align-items: flex-start
+
+	.footer-menu__item
+		margin-bottom: 10px
+		margin-right: 0
+		&:last-child
+			margin-bottom: 0
+		
+	.footer__copyright
+		font-size: 0.8571428571428571em
+		color: rgba(255,255,255,.5)
+
+	.modal_signup
+		width: 100%
+		max-width: 350px
+		height: 425px
+		padding: 30px 15px
+
+	.login__quick
+		padding-right: 35px
+
+	//Keywords style
+	
+	.keywords
+		padding-top: 30px
+		padding-bottom: 20px
+		.container
+			padding-left: 0
+			padding-right: 0
+
+		.post__choose
+			margin-right: 0
+
+	.block__btn
+		display: none
+
+	.content
+		padding-top: 30px
+
+	.content-header__title
+		width: 100%
+		padding: 0
+		font-size: 1.2857142857142858em
+		letter-spacing: 0
+		display: flex
+		flex-direction: column-reverse
+		.rating_wr
+			margin-left: 0
+
+	.keywords__output
+		border-radius: 0
+
+	.output__btn
+		display: none
+
+	.output__header
+		padding: 30px 15px
+
+	.output__title
+		font-size: 1.2142857142857142em
+
+	.output__item
+		padding: 0
+		flex-direction: column
+
+	.o-i__left
+		min-width: 100%
+		max-width: 100%
+		max-height: 90px
+		overflow: hidden
+
+	.o-i__right
+		padding: 30px 15px
+
+	.output__topic
+		margin-top: 25px
+		padding: 0 15px
+
+	.output__post
+		padding: 0 15px
+
+	.post__wrap
+		padding: 20px 0
+		flex-direction: column
+
+	.post__left
+		display: none
+
+	.post__right
+		padding-left: 0
+
+	.post__wrap
+		border-bottom: none
+
+	.post__rating
+		display: none
+
+	.post__position
+		display: none
+
+	.post__relevant
+		display: none
+
+	.post__btn-wr
+		display: none
+
+	.post__bottom
+		display: flex
+		margin-top: 20px
+
+	.mob-post__relevant
+		position: relative
+		.relevant__wr
+			margin-right: 25px
+		.relevant__list
+			min-width: 290px
+			padding: 5px 10px
+			.relevant__item
+				display: flex
+				align-items: center
+				.relevant__position
+					font-size: 0.875em
+					margin-right: 10px
+				.relevant__link
+					font-size: 0.875em
+					line-height: 16px
+
+	.mob-post__btns
+		.post__btn-share
+			display: inline-block
+			.btn-miniature
+				vertical-align: middle
+				margin-top: -3px
+				margin-right: 0
+
+	.statistics
+		display: block
+
+	.statistic__box
+		padding: 30px 15px
+		margin-top: 20px
+		border-radius: 0
+		&:first-child
+			margin-top: 0
+
+	.statistic__value
+		padding-left: 45px
+
+	.stat_analitycs
+		max-width: 100%
+		width: 100%
+
+	.stat_search
+		max-width: 100%
+		width: 100%
+
+	.tooltip__content
+		min-width: 270px
+		top: 60px
+		right: auto
+		left: auto
+		margin-left: auto
+		margin-right: auto
+		padding: 20px 30px 15px 15px
+		opacity: 1
+		visibility: visible
+		&:before
+			left: auto
+			right: 30px
+			top: -7px
+			border-bottom: 7px solid #fff
+			border-left: 7px solid transparent
+			border-right: 7px solid transparent
+
+	.tooltip__icon
+		&:hover + .tooltip__content
+			left: auto
+			top: 30px
+
+	//Sites style
+
+	.topsite__info
+		padding-left: 20px
+
+	.stat_popularity
+		overflow-x: scroll
+		overflow-y: hidden
+		.block__header
+			width: 800px
+			.state__switch
+				margin-right: 15px
+		.block__graph
+			width: 800px
+			padding-right: 15px
+
+	.content__block
+		.block__header
+			padding: 30px 15px 0
+
+	.table-output__line
+		padding: 0 15px
+
+	.add__row
+		transform: scale(1)
+
+	//Watchlist-sites styles
+
+	.save_msg
+		top: 50px
+
+	.watchlist-sites__wr
+		margin: 0
+		flex-direction: column
+		align-items: flex-start
+
+	.watch__item
+		width: 100%
+		max-width: 350px
+		margin: 0 0 20px
+		flex-basis: 100%
+		&:last-child
+			margin-bottom: 0
+
+	.watch__add
+		min-width: 350px
+
+
+	//Watchlist-keywords styles
+
+	.watchlist-kwd
+		.container
+			padding: 0
+			.content__header
+				padding: 0 15px
+
+	//Watchlist-list styles
+
+	.watchlists__item
+		width: calc(50% - 2 * 10px)
+
+	.watchlists__add
+		width: calc(50% - 2 * 10px)
+
+	.mnu__box
+		right: -25px
+
+	//New-Watchlist styles
+
+	.nw__form
+		max-width: 445px
+
+	.nw__group
+		padding: 20px 0
+		flex-direction: column
+
+	.nw-group__name
+		max-width: 100%
+		padding-top: 0
+		margin-right: 0
+		margin-bottom: 20px
+		line-height: 1em
+
+	.nw__fields
+		max-width: 400px
+
+	.nw__field-item
+		max-width: 400px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.trusted__item
+		margin: 0 17px
+		height: 50px
+		img
+			width: auto
+			height: auto
+			max-width: 100%
+			max-height: 100%
+
+	//Sites style
+
+	.topsite
+		flex-direction: column
+
+	.topsite__pic
+		min-width: 290px
+		height: 220px
+		margin-left: auto
+		margin-right: auto
+		margin-bottom: 20px
+
+	.topsite__info
+		padding-left: 0
+
+	.topsite__rating
+		margin-top: 5px
+
+	.stat_position2
+		min-width: 100px
+
+	.banner_small
+		display: block
+
+	.banner_xsmall
+		display: block
+
+	.unlog_sites
+		.container
+			padding-left: 0
+			padding-right: 0
+		.content__header
+			margin-bottom: 30px
+		.topsite
+			.topsite__info
+				padding-left: 15px
+				padding-right: 15px
+
+	//Watchlist-sites styles
+
+	.watch-rating__title
+		font-size: 1em
+		line-height: 1em
+
+	.watch-pos__item
+		width: auto
+		div
+			&:nth-child(1)
+				font-size: 0.9em
+			&:nth-child(2)
+				font-size: 0.75em
+				line-height: 1em
+
+	.watch__rating
+		.rating
+			.svg_rating-star
+				width: 13px
+				height: 10px
+
+	.watch__picture
+		background-size: 150px
+
+	.watch__add
+		width: 100%
+		min-width: 290px
+
+	.save_msg
+		min-width: 320px
+		padding: 0 10px
+
+	//Watchlist-list styles
+
+	.watchlists__item
+		width: 100%
+
+	.watchlists__add
+		width: 100%
+
+	//New Watchlist styles
+
+	.nw__form
+		max-width: 290px
+
+	.nw__fields
+		max-width: 260px
+
+	.nw__field-item
+		max-width: 260px
+
+	.nw__field-add
+		right: -30px
+
+	.assistant__pic
+		height: 40px
+		margin-left: 0
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

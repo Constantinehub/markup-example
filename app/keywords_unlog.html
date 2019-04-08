@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Key optimize (keywords unlog)</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+</head>
+
+<body>
+	
+	<div class="hidden">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute">
+			<symbol id="icon-logo" viewBox="0 0 219 29">
+				<path fill="#19108b" class="st0" d="M216.4 0h2.6v15.9h-2.6V0zm-6.1 5.3h2.6v10.6h-2.6V5.3zm-6.1 2.6h2.6v7.9h-2.6V7.9z"></path><path fill="#000" d="M7.4 18.5H3.3v-7.3H0V29h3.3v-7.3h4.2l6 7.3H17v-.9l-6.6-8 6.6-8v-.9h-3.5l-6.1 7.3zm13.3-7.3V29h16.2v-3.3H24v-4h10.4v-3.3H24v-4h12.9v-3.3H20.7zm28.7 7.6l-5.9-7.6h-3.8l8.1 11.1V29H51v-6.6l8.1-11.1h-3.9l-5.8 7.5zm13.1-6.6c-.7.7-1 1.5-1 2.4v10.9c0 1 .3 1.8 1 2.4.7.7 1.5 1 2.4 1h10.8c.9 0 1.7-.3 2.4-1s1-1.5 1-2.4V14.7c0-1-.3-1.8-1-2.4-.7-.7-1.5-1-2.4-1H64.9c-1-.1-1.8.3-2.4.9zm2.2 13.4V14.7c0-.1.1-.2.2-.2h10.8c.1 0 .1.1.1.2v10.9c0 .1 0 .2-.1.2H64.9c-.1-.1-.2-.1-.2-.2zM83 29h3.2v-6.1h11c.9 0 1.8-.3 2.4-1 .7-.7 1-1.5 1-2.4v-4.8c0-.9-.3-1.7-1-2.4s-1.5-1-2.4-1H83V29zm14.2-9.4H86.4c-.1 0-.2-.1-.2-.2v-4.8c0-.1.1-.2.2-.2h10.8c.1 0 .2.1.2.2v4.8c-.1.2-.1.2-.2.2zm5.5-5.1h7.2V29h3.3V14.5h7.2v-3.3h-17.6v3.3zM126.6 29V11.2h-3.2V29h3.2zm6.8-17.8h-3.5V29h3.2V16l6.7 8 6.7-8v13h3.3V11.2h-3.5l-6.4 7.7-6.5-7.7zM157.1 29V11.2h-3.2V29h3.2zm16.1-14.5l-12.9 11V29h17.6v-3.3H165l12.9-11v-3.6h-17.6v3.3h12.9zm8.6-3.3V29H198v-3.3h-13v-4h10.4v-3.3H185v-4h12.9v-3.3h-16.1z"></path>
+			</symbol>
+		</svg>
+	</div>
+
+	<div class="hidden">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute">
+			<symbol id="icon-ad" viewBox="0 0 18 14">
+				<path data-name="Фигура 522 копия 3" class="cls-1" d="M5.767 8.18l-.6 1.8h-.775l1.972-5.73h.9l1.98 5.73h-.8l-.62-1.8H5.767zm1.9-.58l-.576-1.65c-.121-.38-.207-.72-.293-1.05h-.026c-.078.33-.172.69-.284 1.04L5.92 7.6h1.747zm5.9-3.66v4.97c0 .37.009.79.035 1.07h-.68l-.035-.72h-.017a1.531 1.531 0 0 1-1.412.81 1.889 1.889 0 0 1-1.791-2.09 1.976 1.976 0 0 1 1.869-2.21 1.4 1.4 0 0 1 1.257.62h.017V3.94h.757zm-.757 3.6a1.484 1.484 0 0 0-.035-.33 1.113 1.113 0 0 0-1.093-.85 1.367 1.367 0 0 0-1.248 1.58 1.326 1.326 0 0 0 1.231 1.53 1.143 1.143 0 0 0 1.11-.9 1.236 1.236 0 0 0 .035-.32v-.71zm1.643 6.47H3.538a3.526 3.526 0 0 1-3.544-3.5V3.5A3.526 3.526 0 0 1 3.538 0h10.917a3.526 3.526 0 0 1 3.544 3.5v7.01a3.526 3.526 0 0 1-3.544 3.5zM3.536.71A2.81 2.81 0 0 0 .71 3.5v7.01a2.81 2.81 0 0 0 2.826 2.79h10.917a2.81 2.81 0 0 0 2.826-2.79V3.5A2.81 2.81 0 0 0 14.453.71H3.538z"></path>
+			</symbol>
+		
+			<symbol id="icon-add-page" viewBox="0 0 12 11">
+				<path data-name="Фигура 33 копия" class="cls-1" d="M0 1V0h12v1H0zm0 2V2h12v1H0zm0 2V4h6v1H0zm0 2V6h2v1H0zm5 1V7h7v1H5zm4-4v7H8V4"></path>
+			</symbol>
+		
+			<symbol id="icon-app" viewBox="0 0 20 35">
+				<path class="cls-1" d="M2.5 0A2.506 2.506 0 0 0 0 2.5v30A2.506 2.506 0 0 0 2.5 35h15a2.506 2.506 0 0 0 2.5-2.5v-30A2.506 2.506 0 0 0 17.5 0h-15zm0 1h15A1.486 1.486 0 0 1 19 2.5V5H1V2.5A1.486 1.486 0 0 1 2.5 1zm5.906 1.5a.502.502 0 1 0 .094 1h3a.5.5 0 0 0 .014-1H8.5a.49.49 0 0 0-.094 0zM1 6h18v23H1V6zm1.906 1.5A.5.5 0 0 0 2.5 8v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H3a.49.49 0 0 0-.094 0zm5.5 0A.5.5 0 0 0 8 8v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5h-3a.49.49 0 0 0-.094 0zm5.563 0a.5.5 0 0 0-.469.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.406-.5.49.49 0 0 0-.094 0h-3.031zM3.5 8.5h2v2h-2v-2zm5.5 0h2v2H9v-2zm5.5 0h2v2h-2v-2zM2.906 13a.5.5 0 0 0-.406.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3A.5.5 0 0 0 6 13H3a.49.49 0 0 0-.094 0zM8.5 13a.5.5 0 1 0 .5.5.5.5 0 0 0-.5-.5zm1.5 0a.5.5 0 1 0 .5.5.5.5 0 0 0-.5-.5zm1.5 0a.5.5 0 1 0 .5.5.5.5 0 0 0-.5-.5zm-8 1h2v2h-2v-2zm5 .5a.5.5 0 1 0 .5.5.5.5 0 0 0-.5-.5zm3 0a.5.5 0 1 0 .5.5.5.5 0 0 0-.5-.5zm-3 1.5a.5.5 0 1 0 .5.5.5.5 0 0 0-.5-.5zm1.5 0a.5.5 0 1 0 .5.5.5.5 0 0 0-.5-.5zm1.5 0a.5.5 0 1 0 .5.5.5.5 0 0 0-.5-.5zM1 30h18v2.5a1.486 1.486 0 0 1-1.5 1.5h-15A1.486 1.486 0 0 1 1 32.5V30zm9 1a1 1 0 1 0 1 1 1 1 0 0 0-1-1z"></path>
+			</symbol>
+		
+			<symbol id="icon-arrow-left" viewBox="0 0 5 10">
+				<path data-name="Фигура 520 копия" class="cls-1" d="M4.692.01l.313.36L.319 5.2l-.313-.37zm.034 9.64l-.335.34L.006 4.83l.334-.34z"></path>
+			</symbol>
+		
+			<symbol id="icon-arrow-right" viewBox="0 0 5 10">
+				<path data-name="Фигура 520 копия 2" class="cls-1" d="M.308 9.99l-.313-.36L4.681 4.8l.313.37zM.274.35L.609.01l4.385 5.16-.334.34z"></path>
+			</symbol>
+		
+			<symbol id="icon-ask" viewBox="0 0 15 15">
+				<path data-name="Фигура 35 копия" class="cls-1" d="M7.5 0A7.5 7.5 0 1 0 15 7.5 7.5 7.5 0 0 0 7.5 0zm0 .83A6.67 6.67 0 1 1 .833 7.5 6.661 6.661 0 0 1 7.5.83zm0 2.5A2.535 2.535 0 0 0 5 5.83a.428.428 0 0 0 .411.43.418.418 0 0 0 .422-.41v-.02a1.667 1.667 0 0 1 3.334 0 1.988 1.988 0 0 1-.9 1.57 5.494 5.494 0 0 0-.774.78 1.95 1.95 0 0 0-.411 1.18v.22a.428.428 0 0 0 .411.43.419.419 0 0 0 .423-.41v-.24a1.067 1.067 0 0 1 .241-.68 6.283 6.283 0 0 1 .67-.67 2.877 2.877 0 0 0 1.172-2.18A2.532 2.532 0 0 0 7.5 3.33zm0 7.3a.62.62 0 1 0 .625.62.618.618 0 0 0-.625-.62z"></path>
+			</symbol>
+		
+			<symbol id="icon-basket" viewBox="0 0 12 16">
+				<path data-name="Фигура 25 copy" class="cls-1" d="M4.71 14.117h.01a.342.342 0 0 0 .34-.351l-.17-9.782a.346.346 0 0 0-.36-.338.35.35 0 0 0-.35.35l.18 9.782a.346.346 0 0 0 .35.339zm2.58 0a.346.346 0 0 0 .35-.339l.18-9.782a.351.351 0 0 0-.35-.351.355.355 0 0 0-.36.339l-.17 9.782a.343.343 0 0 0 .34.351h.01zm3.47-10.471a.348.348 0 0 0-.37.333l-.35 10.716a.622.622 0 0 1-.63.616H2.59a.624.624 0 0 1-.63-.627l-.35-10.7a.349.349 0 0 0-.35-.334h-.01a.356.356 0 0 0-.35.356L1.26 14.7A1.322 1.322 0 0 0 2.59 16h6.82a1.32 1.32 0 0 0 1.33-1.294L11.1 4a.353.353 0 0 0-.34-.354zm.89-1.723H.35a.345.345 0 1 0 0 .689h11.3a.345.345 0 1 0 0-.689zm-8.39-.545a.343.343 0 0 0 .35-.344.352.352 0 0 1 .36-.345h4.06a.352.352 0 0 1 .36.345.343.343 0 0 0 .35.344.349.349 0 0 0 .35-.344A1.045 1.045 0 0 0 8.03 0H3.97a1.045 1.045 0 0 0-1.06 1.034.349.349 0 0 0 .35.344z"></path>
+			</symbol>
+		
+			<symbol id="icon-burger" viewBox="0 0 20 12">
+				<path data-name="Rectangle 1 копия 2" class="cls-1" d="M0 0h20v2H0V0zm0 5h20v2H0V5zm0 5h20v2H0v-2z"></path>
+			</symbol>
+		
+			<symbol id="icon-check" viewBox="0 0 9.5 6.656">
+				<path data-name="Rectangle 5 copy" class="cls-1" d="M.007 3.113l.707-.707L4.25 5.942l-.707.707zm2.829 2.829l5.949-5.95.708.707-5.95 5.95z"></path>
+			</symbol>
+		
+			<symbol id="icon-close" viewBox="0 0 19 19">
+				<path data-name="Прямоугольник 12 копия 2" class="cls-1" d="M18.2 0l.809.792-18.2 17.814L0 17.813zM.809.4l18.2 17.814L18.2 19 0 1.187z"></path>
+			</symbol>
+		
+			<symbol id="icon-close-big" viewBox="0 0 28 28">
+				<path data-name="Прямоугольник 12 копия 2" class="cls-1" d="M26.82 0l1.19 1.167L1.19 27.42 0 26.251zM1.19.583l26.82 26.253L26.82 28 0 1.749z"></path>
+			</symbol>
+		
+			<symbol id="icon-cloud" viewBox="0 0 198 204">
+				<path class="st0" d="M97.9 120.5c-4.6-5.7-10.9-9.8-17.6-11.5-6.6-1.6-12.8-.6-17.6 2.8-9.6 7.1-9.6 22.8 0 34.6 4.6 5.7 10.9 9.8 17.4 11.4 5.6 1.4 11.2.9 15.5-1.5.6-.5 1.4-.8 2.1-1.2.6-.5 1.3-.9 1.8-1.5 8-7.8 7.3-22-1.6-33.1zm-.2 31.3c-.5.5-1 1-1.6 1.3-.6.5-1.1.8-1.8 1.1-4 2.2-9 2.7-14.1 1.4-5.9-1.5-11.7-5.3-15.8-10.4-8.8-10.9-8.8-24.9 0-31.3 4.2-3.1 9.9-4 15.8-2.6 5.9 1.5 11.7 5.3 15.8 10.4 8.3 10 8.9 23 1.7 30.1z"></path><path class="st0" d="M106 158.7c.3-.2.6-.6.8-.9h.2l55 13.6c19.8 4.9 36-7.1 36-26.7s-16.2-39.5-36-44.4c-5-1.2-9.6-1.4-14.1-.6-1-18.9-16.6-37.8-35.9-42.5-16.9-4.2-31.5 3.7-35 19.1-4.8-5.1-11-9-17.4-10.6-14.7-3.6-26.7 4.8-27.4 19l-4.6-1.1C14.6 80.4 3.3 86.8.5 98.7l-.2 1.1c-.3 1.3-.3 2.9-.3 4.5 0 15 12.3 30.2 27.5 34l26.2 6.5c1.1 1.9 2.4 3.8 3.8 5.5 6.2 7.7 14.4 12.9 22.7 14.9 6.7 1.7 13.4 1.3 19.2-1.6l26.7 37.9c.8 1.1 1.9 2.1 3.2 2.4h.2c1.1.3 2.4.1 3.2-.5l5.1-3.8c1-.7 1.3-1.7 1.3-3s-.6-2.5-1.6-3.6L106 158.7zm-78.5-22.8c-13.9-3.4-25.3-17.5-25.3-31.2 0-1.4.2-2.8.3-4l.2-.8C5.1 89 15.5 83.2 27.3 86.1l5.4 1.3c.2 0 .3.1.5.1.6.2 1.1-.2 1.1-.8 0-13.6 11.2-21.9 25-18.5 9.9 2.5 18.9 10.4 22.9 20.3.3.7 1 1 1.6 1 .6-.2.8-.8.6-1.4-1.4-3.4-3.2-6.5-5.6-9.4 2.9-15.1 16.6-23.2 33.1-19.2 18.6 4.6 33.6 23.2 33.6 41.5 0 3.5-.6 7-1.6 10-.2.6.2 1.3.8 1.6.2 0 .3.1.3.1.5.1 1-.1 1.1-.5 1.1-3 1.8-6.5 1.8-10 4.5-.9 9.1-.7 14.1.5 18.6 4.6 33.6 23.2 33.6 41.5s-15 29.5-33.6 24.9l-53.9-13.3c.6-1.1 1.3-2.2 1.9-3.5 1.4-3.3 2.2-7 2.2-11.1 0-1.6-.2-3-.3-4.5-.3-2.3-.8-4.6-1.6-6.9-1.6-4.7-4.2-9.2-7.4-13.2-6.1-7.5-14.1-12.8-22.7-14.9-8.6-2.1-16.6-.8-22.7 3.7-3.4 2.5-5.8 5.7-7.4 9.6-.8 1.9-1.3 4-1.6 6.1-.2 1.4-.3 2.8-.3 4.2 0 4 .6 8.1 2.2 12.2.5 1.5 1.1 3 1.9 4.4l-25-6.2v.2zm31.8 13.2c-2.9-3.6-5.1-7.6-6.7-11.8-1.4-3.8-2.1-7.6-2.1-11.3 0-1.4.2-2.6.3-3.9.3-2 .8-3.9 1.6-5.6 1.4-3.6 3.8-6.6 6.9-8.9 5.6-4.1 13.1-5.3 21-3.4 8 2 15.4 6.8 21 13.7 3 3.8 5.4 8 6.9 12.3.8 2.1 1.3 4.3 1.6 6.4.2 1.3.3 2.8.3 4 0 3.8-.6 7.3-2.1 10.2-1.1 2.6-2.6 4.7-4.5 6.6-.5.5-1 .9-1.6 1.3-.2.1-.3.4-.6.5-.3.2-.6.3-1 .6-.5.4-1 .7-1.6 1-11.7 6.7-28.7 1.5-39.4-11.7zm76.8 48.3l-5.1 3.8c-.5.4-1 .4-1.6.2-.6-.2-1.1-.6-1.6-1.2l-26.6-37.7.2-.1c.5-.4 1-.7 1.6-1 .5-.4 1-.7 1.4-1.2l.2-.1 31.5 34.2c.5.4.8 1.1.8 1.8 0 .6-.3 1-.8 1.3zM32.7 54.2h.2c7.2 1.8 13.9.8 19-3 2.9-2.1 5-4.9 6.4-8.2 0 0 0-.2.2-.1 1-2.6 1.6-5.5 1.6-8.5C60.2 19.7 48 4.6 33.1.9h-.2c-7.2-1.8-13.9-.8-19 3s-8 9.7-8 16.8c0 7.1 2.7 14.6 7.8 20.9 4.9 6.3 11.7 10.8 19 12.6zM10.1 31.5L21 34.2c1.1 6.3 3 11.7 5.8 15.3-7.6-3.5-13.7-10.3-16.7-18zm47.4 2.3c0 2.5-.5 4.9-1.3 7.1L44.7 38c.3-2.3.5-4.8.5-7.3s-.2-5.1-.5-7.5L56.2 26c.9 2.6 1.3 5.2 1.3 7.8zm-14.4-3.6c0 2.5-.2 5-.5 7.3l-19.4-4.9c-.3-2.4-.5-4.9-.5-7.5 0-2.5.2-5 .5-7.3l19.4 4.9c.3 2.4.5 5 .5 7.5zm-22.5 1.7L9.1 29.1C8.3 26.5 8 23.9 8 21.4s.5-4.9 1.3-7.1l11.5 2.8c-.3 2.3-.5 4.8-.5 7.3-.1 2.5 0 5.1.3 7.5zM32.7 52c-3.7-.9-7.7-7.6-9.3-17l18.7 4.8c-.6 2.7-1.4 5.2-2.4 7.3-1.9 3.6-4.5 5.5-7 4.9zm5.9.6c1.1-1 2.2-2.4 3.2-4.3 1.1-2.3 2.1-5 2.7-8.2l10.9 2.7c-3.1 6.3-9.3 10-16.8 9.8zm16.9-29L44.7 21c-.6-3.5-1.4-6.5-2.6-9.5-1-2.3-1.9-4.3-3.2-5.8 7.5 3.5 13.6 10.2 16.6 17.9zM33 3.2c2.6.6 5 3.8 6.9 8.5 1 2.6 1.8 5.3 2.2 8.5l-18.6-4.7c.6-2.7 1.4-5.2 2.4-7.3 2-3.7 4.5-5.6 7.1-5zm-6-.8c-1.1 1-2.2 2.4-3.2 4.3-1.3 2.4-2.1 5.2-2.7 8.2l-10.9-2.7c3.1-6.3 9.3-9.8 16.8-9.8z"></path>
+			</symbol>
+		
+			<symbol id="icon-delete" viewBox="0 0 16 18">
+				<path data-name="Фигура 30" class="cls-1" d="M0 1.424h5.606V0h4.788v1.424H16v2.155H0V1.424zm1.464 3.069h13.343L13.221 18H3.05m9.681-12H11.4l-.777 10.966h1.012zm-4 .01H7.4l.174 10.963h1.012zm-4 .086H3.4l1.126 10.943h1.012z"></path>
+			</symbol>
+		
+			<symbol id="icon-download" viewBox="0 0 9 11">
+				<path data-name="Фигура 33" class="cls-1" d="M0 11h9v-1H0v1zM4.521 0a.555.555 0 0 0-.554.556V6.05L2 3.965a.555.555 0 1 0-.881.675.532.532 0 0 0 .076.081L4.121 7.83a.552.552 0 0 0 .783.021l.022-.021 2.927-3.109a.555.555 0 1 0-.805-.764L5.08 6.042V.556A.555.555 0 0 0 4.525 0z"></path>
+			</symbol>
+		
+			<symbol id="icon-drop" viewBox="0 0 6 3">
+				<path data-name="Polygon 664" class="cls-1" d="M3.008 3l-3-3h6z"></path>
+			</symbol>
+		
+			<symbol id="icon-emptystar" viewBox="0 0 10.812 10">
+				<path data-name="Фигура 26 копия" class="cls-1" d="M3.172 9.37a.635.635 0 0 1-1-.7l.407-2.276a.256.256 0 0 0-.061-.181L.793 4.602c-.506-.473-.316-1.033.383-1.131l2.384-.332a.266.266 0 0 0 .16-.111L4.786.957a.65.65 0 0 1 1.24 0l1.066 2.071a.272.272 0 0 0 .161.111l2.384.332a.613.613 0 0 1 .383 1.131L8.295 6.213a.251.251 0 0 0-.061.181l.407 2.276a.635.635 0 0 1-1 .7L5.506 8.3a.284.284 0 0 0-.2 0z"></path>
+			</symbol>
+		
+			<symbol id="icon-fullstar" viewBox="0 0 9.781 9">
+				<path data-name="Фигура 26" class="cls-1" d="M2.654 8.87a.635.635 0 0 1-1-.7l.408-2.276A.252.252 0 0 0 2 5.713L.275 4.102a.613.613 0 0 1 .383-1.131l2.384-.332a.269.269 0 0 0 .161-.111L4.269.457a.65.65 0 0 1 1.24 0l1.066 2.071a.272.272 0 0 0 .161.111l2.384.332a.613.613 0 0 1 .383 1.131L7.778 5.713a.252.252 0 0 0-.062.181l.408 2.276a.635.635 0 0 1-1 .7L4.991 7.796a.281.281 0 0 0-.2 0z"></path>
+			</symbol>
+		
+			<symbol id="icon-globe" viewBox="0 0 16 16">
+				<path class="cls-1" d="M8 0a8 8 0 1 0 8 8 8.01 8.01 0 0 0-8-8zm3.556 8a9.475 9.475 0 0 1-.657 3.464 10.034 10.034 0 0 0-2.605-.421V7.79h3.256c.004.068.008.138.008.21zm-7.107-.21h3.257v3.247a10.042 10.042 0 0 0-2.607.422 9.446 9.446 0 0 1-.656-3.458c.002-.073.007-.143.008-.213zm.652-3.253a10.027 10.027 0 0 0 2.605.421V7.2H4.481A9.413 9.413 0 0 1 5.1 4.535zm-1.21 2.665H.629a7.376 7.376 0 0 1 1.723-4 9.494 9.494 0 0 0 2.192 1.144A10 10 0 0 0 3.893 7.2zm4.4-6.208a8.212 8.212 0 0 1 2.37 3 9.516 9.516 0 0 1-2.37.377V.995zM7.703 4.37a9.509 9.509 0 0 1-2.37-.377 8.212 8.212 0 0 1 2.37-3v3.376zm0 7.261v3.376a8.215 8.215 0 0 1-2.37-3 9.455 9.455 0 0 1 2.375-.378zm.588 0a9.47 9.47 0 0 1 2.37.376 8.215 8.215 0 0 1-2.37 3v-3.376zm0-4.429V4.958a10.068 10.068 0 0 0 2.605-.42 9.406 9.406 0 0 1 .62 2.664H8.3zm3.161-2.852a9.476 9.476 0 0 0 2.193-1.142 7.375 7.375 0 0 1 1.722 3.994H12.11a9.961 9.961 0 0 0-.653-2.854zm1.791-1.581a8.859 8.859 0 0 1-2.021 1.041A8.862 8.862 0 0 0 8.778.632a7.4 7.4 0 0 1 4.47 2.135zM7.216.631A8.865 8.865 0 0 0 4.771 3.81 8.859 8.859 0 0 1 2.75 2.769 7.408 7.408 0 0 1 7.221.629zM.587 7.79h3.272c0 .07-.006.14-.006.21a10.038 10.038 0 0 0 .685 3.644 9.486 9.486 0 0 0-2.193 1.145A7.375 7.375 0 0 1 .587 8c0-.072.003-.142.005-.212zm2.164 5.442a8.9 8.9 0 0 1 2.021-1.041 8.842 8.842 0 0 0 2.444 3.178 7.4 7.4 0 0 1-4.46-2.139zm6.027 2.137a8.837 8.837 0 0 0 2.444-3.179 8.9 8.9 0 0 1 2.021 1.041 7.4 7.4 0 0 1-4.46 2.136zm4.866-2.575a9.472 9.472 0 0 0-2.191-1.145A10.024 10.024 0 0 0 12.141 8c0-.071 0-.14-.006-.211h3.271V8a7.374 7.374 0 0 1-1.757 4.792z"></path>
+			</symbol>
+		
+			<symbol id="icon-gplus" viewBox="0 0 25 25">
+				<path class="cls-1" d="M15.476-.01H8.138C4.781-.01 1.62 2.464 1.62 5.556a5.466 5.466 0 0 0 5.7 5.616c.238 0 .469-.056.7-.074a3.2 3.2 0 0 0-.378 1.442 3.09 3.09 0 0 0 1.016 2.162c-.427 0-.844.006-1.3.006-4.158 0-7.359 2.78-7.359 5.663 0 2.839 3.509 4.617 7.668 4.617 4.741 0 7.361-2.827 7.361-5.666a5.569 5.569 0 0 0-2.618-5.113c-.678-.5-1.971-1.725-1.971-2.445 0-.843.229-1.258 1.438-2.25a4.939 4.939 0 0 0 2.114-3.889c0-1.975-.809-4.387-2.384-4.387h2.679zm-2.463 18.84a3.848 3.848 0 0 1 .092.811c0 2.295-1.411 4.088-5.453 4.088-2.875 0-4.95-1.91-4.95-4.2 0-2.248 2.575-4.122 5.452-4.087a6.083 6.083 0 0 1 1.862.31c1.56 1.137 2.684 1.781 2.997 3.078zm-4.605-8.56c-1.929-.059-3.764-2.266-4.1-4.924S5.27.646 7.199.707s3.764 2.2 4.1 4.858-.961 4.765-2.891 4.705zm13.021-.29V6.231h-2.381V9.98h-3.572v2.5h3.572v3.749h2.381V12.48H25v-2.5h-3.571z"></path>
+			</symbol>
+		
+			<symbol id="icon-keywords" viewBox="0 0 33 31">
+				<path class="cls-1" d="M30.248 0h-27.5A2.731 2.731 0 0 0 0 2.7v22.966a2.733 2.733 0 0 0 2.756 2.7H7.57a.835.835 0 1 0 0-1.669H2.756a1.045 1.045 0 0 1-1.055-1.035V7.874H31.3v17.789a1.045 1.045 0 0 1-1.055 1.035h-4.423a.835.835 0 1 0 0 1.669h4.423a2.734 2.734 0 0 0 2.756-2.7V2.7A2.731 2.731 0 0 0 30.248 0zm1.051 6.206H1.7v-3.5a1.041 1.041 0 0 1 1.051-1.031h27.5A1.042 1.042 0 0 1 31.3 2.7v3.5zM7.621 3.953a.851.851 0 1 1-.851-.835.842.842 0 0 1 .851.834zM16.554 21.6a6.087 6.087 0 0 0 1.228-2.9h.018a.835.835 0 1 0 0-1.669h-.02a6.253 6.253 0 0 0-5.392-5.3v-.019a.851.851 0 0 0-1.7 0v.019a6.254 6.254 0 0 0-5.392 5.291h-.023a.835.835 0 1 0 0 1.669h.02a6.254 6.254 0 0 0 5.4 5.295v.02a.851.851 0 0 0 1.7 0v-.02a6.346 6.346 0 0 0 2.96-1.2l2.851 2.78-1.404 1.379a.825.825 0 0 0 0 1.182.864.864 0 0 0 1.2 0l1.4-1.379 1.47 1.439-1.405 1.378a.825.825 0 0 0 0 1.182.864.864 0 0 0 1.2 0l2.007-1.969a.824.824 0 0 0 0-1.181zm-.364-2.9h-.125a4.574 4.574 0 0 1-3.674 3.605v.123a.851.851 0 0 0-1.7 0v-.123A4.574 4.574 0 0 1 7.017 18.7h-.128a.835.835 0 1 0 0-1.669h.126a4.576 4.576 0 0 1 3.674-3.606V13.3a.851.851 0 0 0 1.7 0v.123a4.574 4.574 0 0 1 3.674 3.6h.127a.835.835 0 1 0 0 1.669zm12.217-6.747a.843.843 0 0 1-.85.835H20.11a.835.835 0 1 1 0-1.669h7.43a.844.844 0 0 1 .867.818v.016zm0 4.257a.843.843 0 0 1-.85.834h-5.175a.835.835 0 1 1 0-1.669h5.158a.844.844 0 0 1 .867.818v.017zm0 4.256a.843.843 0 0 1-.85.834h-5.175a.835.835 0 1 1 0-1.669h5.158a.844.844 0 0 1 .867.818v.017zM10.318 3.952a.851.851 0 1 1-.85-.835.842.842 0 0 1 .85.835zm-5.385 0a.851.851 0 1 1-.85-.835.842.842 0 0 1 .85.835z"></path>
+			</symbol>
+		
+			<symbol id="icon-list" viewBox="0 0 209 220">
+				<path class="st0" d="M17.4 56.1l51.7 15.7c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9L17.4 53.1c-.8-.3-1.5.2-1.5 1-.2.8.6 1.7 1.5 2zm0 57.9l58 17.6c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9l-58-17.6c-.8-.3-1.5.2-1.5 1-.2.6.6 1.7 1.5 1.9zm0-14.6l51.7 15.7c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9L17.4 96.4c-.8-.3-1.5.2-1.5 1 0 .9.6 1.7 1.5 2zm0 29.1l44 13.4c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9l-44-13.4c-.8-.3-1.5.2-1.5 1s.6 1.6 1.5 1.9zm0 14.4l60.3 18.3c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9L17.4 140c-.8-.3-1.5.2-1.5 1-.2.8.6 1.6 1.5 1.9zm-1.7 12.4c0 .8.6 1.7 1.5 1.9l86.5 26.3c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9l-86.3-26.2c-.9-.3-1.7.1-1.7.9zM90 190.9l-72.7-22.1c-.8-.3-1.5.2-1.5 1s.6 1.7 1.5 1.9L90 193.8c.8.3 1.5-.2 1.5-1s-.6-1.6-1.5-1.9zM17.4 70.5l42.3 12.9c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9L17.4 67.6c-.8-.3-1.5.2-1.5 1-.2.8.6 1.6 1.5 1.9zm0 14.4l17.2 5.2c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9L17.4 82c-.8-.3-1.5.2-1.5 1-.2.8.6 1.7 1.5 1.9zm27.4 5.4c-.8-.3-1.5.2-1.5 1s.6 1.7 1.5 1.9l21.8 6.6c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9l-21.8-6.6zm59.1-65.7l51.7 15.7c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9l-51.7-15.7c-.8-.3-1.5.2-1.5 1s.6 1.7 1.5 1.9zm0 58l66 20.1c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9l-66-20.1c-.8-.3-1.5.2-1.5 1s.6 1.6 1.5 1.9zm84.6 8.1L103.9 65c-.8-.3-1.5.2-1.5 1s.6 1.7 1.5 1.9l84.6 25.7c.8.3 1.5-.2 1.5-1 .1-.8-.7-1.6-1.5-1.9zM103.9 97l44 13.4c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9l-44-13.4c-.8-.3-1.5.2-1.5 1s.6 1.6 1.5 1.9zm74.3 34.1l-74.3-22.6c-.8-.3-1.5.2-1.5 1s.6 1.7 1.5 1.9l74.3 22.6c.8.3 1.5-.2 1.5-1 .2-.8-.4-1.6-1.5-1.9zm-19 8.6l-55.3-16.8c-.8-.3-1.5.2-1.5 1s.6 1.7 1.5 1.9l55.3 16.8c.8.3 1.5-.2 1.5-1-.1-.8-.7-1.6-1.5-1.9zm-27.7 6.1l-27.6-8.4c-.8-.3-1.5.2-1.5 1s.6 1.7 1.5 1.9l27.6 8.4c.8.3 1.5-.2 1.5-1s-.7-1.7-1.5-1.9zM103.9 39.1l67 20.4c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9l-67-20.4c-.8-.3-1.5.2-1.5 1s.6 1.6 1.5 1.9zm0 14.4l17.2 5.2c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9l-17.2-5.2c-.8-.3-1.5.2-1.5 1s.6 1.6 1.5 1.9zm27.6 5.5c-.8-.3-1.5.2-1.5 1s.6 1.7 1.5 1.9l32.7 9.9c.8.3 1.5-.2 1.5-1s-.6-1.7-1.5-1.9L131.5 59z"></path><path class="st0" d="M209 183.8V57.6c0-.2-.2-.3-.2-.5l-21.4-27.8c-.2-.3-.2-.3-.4-.3l-.2-.1c-.2-.1-.2-.1-.4-.1L92.6.3c-3.1-1-5.7.8-5.7 4.1v51.9l-81-24.6c-3.1-1-5.9.7-5.9 3.9v142.7c0 3.3 2.7 7.1 6.3 8.2L116 219.7c3.4 1 6.3-.8 6.3-4.4v-51.7l80.2 24.4c3.8 1.2 6.5-.9 6.5-4.2zM187.8 34.2l16 20.8-12.6-3.8c-1.9-.6-3.6-2.5-3.6-4.6V34.2h.2zm-68.4 180.1c0 1.7-1.5 2.7-3.1 2.2L6.5 183.1c-1.7-.5-3.1-2.4-3.1-4.1V36.3c0-1.5 1.3-2.3 2.7-1.9L86.9 59v87.4c0 3.3 2.7 7.1 6.3 8.2l26.4 8v51.7h-.2zm1.6-54.1l-28-8.6c-1.7-.5-3.1-2.4-3.1-4.1V4.9c0-1.5 1.3-2.3 2.7-1.9l92.1 28v14.6c0 3.6 2.9 7.4 6.5 8.5l14.7 4.5v124.1c0 1.7-1.5 2.7-3.1 2.2L121 160v.2z"></path>
+			</symbol>
+		
+			<symbol id="icon-logout" viewBox="0 0 11 11">
+				<path class="st0" d="M5.5 11C2.5 11 0 8.7 0 5.8c0-1.1.4-2.2 1-3 .8-1.1 1.6-.9.7.2-.6.8-1 1.8-1 2.8 0 2.5 2.1 4.6 4.8 4.6 2.6 0 4.8-2.1 4.8-4.6 0-1-.3-1.9-.9-2.6-.9-1.2-.6-1.9.6-.5.7.9 1 1.9 1 3 0 3-2.4 5.3-5.5 5.3z"></path><path class="st0" d="M5.5 6.2c-.2 0-.4-.2-.4-.4V.4c.1-.2.2-.4.4-.4s.4.2.4.4v5.5c0 .2-.2.3-.4.3z"></path>
+			</symbol>
+		
+			<symbol id="icon-loupe" viewBox="0 0 15.969 16">
+				<path data-name="Фигура 12" class="cls-1" d="M5.913 11.921a5.822 5.822 0 0 0 2.3-.472 5.987 5.987 0 0 0 1.878-9.7A5.846 5.846 0 0 0 5.91 0H5.9a5.793 5.793 0 0 0-2.289.469 5.986 5.986 0 0 0-3.143 7.81 5.9 5.9 0 0 0 5.445 3.642zm0-10.8a4.84 4.84 0 1 1-4.8 4.84 4.824 4.824 0 0 1 4.8-4.84zM15.466 16a.507.507 0 0 0 .364-.144.62.62 0 0 0-.069-.861l-3.682-3.715a.7.7 0 0 0-.49-.213.509.509 0 0 0-.364.144.517.517 0 0 0-.143.367.707.707 0 0 0 .212.493l3.683 3.715a.7.7 0 0 0 .489.214z"></path>
+			</symbol>
+		
+			<symbol id="icon-mnu" viewBox="0 0 3 13">
+				<path data-name="Эллипс 3 копия 2" class="cls-1" d="M1.5 0A1.439 1.439 0 1 1 0 1.437 1.47 1.47 0 0 1 1.5 0zm0 5.062A1.439 1.439 0 1 1 0 6.5a1.47 1.47 0 0 1 1.5-1.438zm0 5.063A1.439 1.439 0 1 1 0 11.562a1.47 1.47 0 0 1 1.5-1.437z"></path>
+			</symbol>
+		
+			<symbol id="icon-next" viewBox="0 0 30 7">
+				<path class="st0" d="M27 3v1H0V3h27z"></path><path d="M30 3.5L26 7V0l4 3.5z"></path>
+			</symbol>
+		
+			<symbol id="icon-positiondown" viewBox="0 0 5 10">
+				<path data-name="Многоугольник 2 копия 12" class="cls-1" d="M2 0h1v8H2V0zm.5 10L0 7h5z"></path>
+			</symbol>
+		
+			<symbol id="icon-positionup" viewBox="0 0 5 10">
+				<path data-name="Многоугольник 2 копия 12" class="cls-1" d="M2 2h1v8H2V2zm.5-2L5 3H0z"></path>
+			</symbol>
+		
+			<symbol id="icon-prev" viewBox="0 0 30 7">
+				<title>arrow</title><g data-name="&lt;Группа&gt;"><path data-name="&lt;Контур&gt;" d="M30 3v1H3V3h27z"></path><path data-name="&lt;Контур&gt;" d="M4 0v7L0 3.5z"></path></g>
+			</symbol>
+		
+			<symbol id="icon-showmore" viewBox="0 0 13.062 13.28">
+				<path data-name="Фигура 34" class="cls-1" d="M10.841 1.55l.134-.02a.5.5 0 0 0 .4-.56.463.463 0 0 0-.544-.4L9.545.79a.5.5 0 0 0-.282.16s-.008.01-.012.01q-.021.03-.039.06s-.009.01-.013.01a.038.038 0 0 1-.008.02.131.131 0 0 0-.016.04.492.492 0 0 0-.023.06v.01a.482.482 0 0 0 0 .25l.179 1.23a.486.486 0 0 0 .231.35.475.475 0 0 0 .313.05.492.492 0 0 0 .405-.56l-.022-.14a5.651 5.651 0 0 1 1.072 7.05 5.712 5.712 0 0 1-5.763 2.82.491.491 0 0 0-.554.41.469.469 0 0 0 .228.49.452.452 0 0 0 .162.06 6.709 6.709 0 0 0 5.438-11.62zM3.882 12.14c.006-.01.012-.03.017-.04a.248.248 0 0 1 .009-.04q.006-.03.009-.06v-.03a.547.547 0 0 0 0-.07.034.034 0 0 1 0-.01l-.189-1.3a.477.477 0 0 0-.544-.4.5.5 0 0 0-.405.56l.023.16a5.727 5.727 0 0 1 4.723-9.87.5.5 0 0 0 .557-.41.47.47 0 0 0-.387-.55 6.708 6.708 0 0 0-5.48 11.61l-.128.02a.5.5 0 0 0-.4.56.466.466 0 0 0 .23.34.478.478 0 0 0 .313.06l1.286-.22c.013 0 .025-.01.038-.01s.016-.01.023-.01.043-.01.064-.02a.026.026 0 0 1 .024-.01.22.22 0 0 1 .054-.04c.009-.01.018-.01.026-.02s.029-.03.043-.04l.025-.03c.012-.01.023-.03.033-.04a.034.034 0 0 1 .014-.02.038.038 0 0 1 .008-.02c.001-.02.008-.03.014-.05z"></path>
+			</symbol>
+		
+			<symbol id="icon-sites" viewBox="0 0 36 30">
+				<path data-name="Фигура 23" class="cls-1" d="M33.545 0H2.455A2.416 2.416 0 0 0 0 2.368v25.264A2.416 2.416 0 0 0 2.455 30h31.09A2.416 2.416 0 0 0 36 27.632V2.368A2.416 2.416 0 0 0 33.545 0zm.818 27.632a.8.8 0 0 1-.818.789H2.455a.8.8 0 0 1-.818-.789V6.316h32.727v21.316zm0-22.9H1.636V2.363a.8.8 0 0 1 .818-.789h31.091a.8.8 0 0 1 .818.789v2.369zM4.09 2.363a.79.79 0 1 1-.818.79.8.8 0 0 1 .819-.785zm3.273 0a.79.79 0 1 1-.818.79.8.8 0 0 1 .819-.785zm3.273 0a.79.79 0 1 1-.818.79.8.8 0 0 1 .818-.785zM6.545 15.784h4.909a.8.8 0 0 0 .819-.784v-4.737a.8.8 0 0 0-.818-.79h-4.91a.8.8 0 0 0-.818.79V15a.8.8 0 0 0 .818.789zm.818-4.736h3.273v3.157H7.364v-3.157zm7.364 0h9a.79.79 0 1 0 0-1.58h-9a.793.793 0 1 0 0 1.585zm0 2.368h6.546a.79.79 0 1 0 0-1.579h-6.546a.792.792 0 1 0 0 1.584zm11.455-2.368h3.273a.79.79 0 1 0 0-1.58h-3.273a.793.793 0 1 0 0 1.585zm-11.455 4.736h4.909a.79.79 0 1 0 0-1.579h-4.909a.792.792 0 1 0 0 1.584zm-8.182 9.474h4.909a.8.8 0 0 0 .818-.789v-4.737a.8.8 0 0 0-.818-.79H6.545a.8.8 0 0 0-.818.79v4.737a.8.8 0 0 0 .818.794zm.818-4.737h3.273v3.158H7.364v-3.158zM27 12.632a.8.8 0 0 0-.818-.79h-2.455a.79.79 0 1 0 0 1.579h2.455a.8.8 0 0 0 .818-.789zm-12.273 7.894h9a.79.79 0 1 0 0-1.579h-9a.79.79 0 1 0 0 1.579zm0 2.369h6.546a.79.79 0 1 0 0-1.579h-6.546a.792.792 0 1 0 0 1.584zm14.727-3.948h-3.272a.79.79 0 1 0 0 1.579h3.273a.79.79 0 1 0 0-1.579zm-3.273 2.369h-2.454a.79.79 0 1 0 0 1.579h2.455a.79.79 0 1 0 0-1.579zm-11.455 3.947h4.909a.79.79 0 1 0 0-1.579h-4.908a.79.79 0 1 0 0 1.579z"></path>
+			</symbol>
+		
+			<symbol id="icon-star" viewBox="0 0 27 35">
+				<path class="st0" d="M0 0v35s7.2-5 14-5c6.7 0 13 5 13 5V0H0zm18.3 20L14 18l-4.3 2 .6-4.6L7 12l4.7-.9L14 7l2.3 4.1 4.7.9-3.3 3.4.6 4.6z"></path>
+			</symbol>
+		
+			<symbol id="icon-user" viewBox="0 0 12 12">
+				<path data-name="Фигура 5" class="cls-1" d="M0 11.933a5.658 5.658 0 0 1 .13-.939 5.824 5.824 0 0 1 3.45-4.091 6.222 6.222 0 0 1 1.88-.466 7.976 7.976 0 0 1 1.08 0 6.159 6.159 0 0 1 3.05 1.12 5.735 5.735 0 0 1 2.28 3.438 5.658 5.658 0 0 1 .13.939V12h-.8l-.01-.122a4.945 4.945 0 0 0-.08-.61c-.02-.11-.04-.216-.04-.236a5.792 5.792 0 0 0-.24-.721 4.584 4.584 0 0 0-.34-.674c-.01-.018-.03-.05-.04-.071a5.332 5.332 0 0 0-.73-.919 5.255 5.255 0 0 0-1.06-.8c-.01-.008-.04-.024-.06-.036a5.085 5.085 0 0 0-.7-.326 5.923 5.923 0 0 0-.75-.225l-.25-.044a5.981 5.981 0 0 0-1.83 0l-.25.044a6.454 6.454 0 0 0-.75.225 5.652 5.652 0 0 0-.7.326l-.07.043a5.484 5.484 0 0 0-.96.706 5.091 5.091 0 0 0-.82 1.014.661.661 0 0 0-.04.059 4.5 4.5 0 0 0-.34.674 5.487 5.487 0 0 0-.23.721 2.021 2.021 0 0 0-.05.236 4.945 4.945 0 0 0-.08.61V12H0v-.067zm5.74-6.355a3.061 3.061 0 0 1-1.27-.41 2.953 2.953 0 0 1-.94-.9A2.726 2.726 0 0 1 3.94.814a2.968 2.968 0 0 1 1.87-.815 3.019 3.019 0 0 1 1.72.414 2.954 2.954 0 0 1 .94.9 2.722 2.722 0 0 1-.16 3.177 3.407 3.407 0 0 1-.54.523 3.038 3.038 0 0 1-2.03.565zm.67-.75a2.368 2.368 0 0 0 .84-.347 2.715 2.715 0 0 0 .5-.479 2.367 2.367 0 0 0 .36-.815 2.506 2.506 0 0 0 0-.773 2.368 2.368 0 0 0-.36-.815 2.709 2.709 0 0 0-.5-.479A2.391 2.391 0 0 0 6.4.771a2.871 2.871 0 0 0-.8 0 2.391 2.391 0 0 0-.85.349 2.709 2.709 0 0 0-.5.479 2.368 2.368 0 0 0-.36.815 2.506 2.506 0 0 0 0 .773 1.931 1.931 0 0 0 .19.533 2.093 2.093 0 0 0 .4.538 2 2 0 0 0 .56.388 2.328 2.328 0 0 0 .71.207 3.06 3.06 0 0 0 .66-.025z"></path>
+			</symbol>
+		
+			<symbol id="icon-widget" viewBox="0 0 13 12">
+				<path data-name="Прямоугольник 18 копия 3" class="cls-1" d="M.5.5h7v5h-7v-5zm5 6h7v5h-7v-5zm3-6h4v5h-4v-5zm-8 6h4v5h-4v-5z"></path>
+			</symbol>
+		</svg>
+	</div>
+
+	<div class="wrapper">
+
+		<div class="header flex">
+			<div class="header__logo">
+				<a href="#">
+					<svg class="svg__icon svg_logo">
+						<use xlink:href="#icon-logo"></use>
+					</svg>
+				</a>
+			</div>
+			<div class="header__search hidden-sm hidden-xs">
+				<form action="#" class="search__form">
+					<input type="text" placeholder="Enter domain, keyword, apps ot URL" id="js_search" class="search__input">
+					<button class="search__btn">
+						<svg class="svg__icon svg_loupe">
+							<use xlink:href="#icon-loupe"></use>
+						</svg>
+					</button>
+				</form>
+			</div>
+			<div class="header__right hidden-sm hidden-xs flex">
+				<div class="header__menu">
+					<a href="#search" class="menu__item js_looking">Tools</a>
+					<a href="#" class="menu__item">Pricing</a>
+					<a href="#" class="menu__item">Help</a>
+				</div>
+				<div class="header__language">
+					<div class="language__output flex">
+						<span class="out">En</span>
+						<span class="caret ic_caret"></span>
+					</div>
+					<div class="language_list">
+						<a href="#" class="language__item">English</a>
+						<a href="#" class="language__item">Русский</a>
+						<a href="#" class="language__item">Español</a>
+						<a href="#" class="language__item">German</a>
+					</div>
+				</div>
+				<div class="header__profile">
+					<button class="btn_profile">
+						<svg class="svg__icon svg_user">
+							<use xlink:href="#icon-user"></use>
+						</svg>
+						<i class="ic_user"></i>James<span class="caret ic_caret"></span></button>
+					<ul class="profile_drop">
+						<li><a href="#">Account preferences</a></li>
+						<li><a href="#">Watchlists <span class="watch_count">3</span></a></li>
+						<li><a href="#">Change plan</a></li>
+						<li><a href="#">Log out <svg class="svg__icon svg_logout"><use xlink:href="#icon-logout"></use></svg></a></li>
+					</ul>
+				</div>
+				<div class="header__btns">
+					<a href="#signup" class="btn_signup js_modal"><span>Sign up</span></a>
+				</div>
+			</div>
+			<div class="mobile_head flex">
+				<a href="#signup" class="btn_signup js_modal"><span>Sign up</span></a>
+				<a href="#" class="mobile_btn">
+					<svg class="svg__icon svg_burger">
+						<use xlink:href="#icon-burger"></use>
+					</svg>
+				</a>
+			</div>
+			<div class="mobile__block">
+				<div class="mobile-block_wr">
+					<div class="mobile__header flex">
+						<a href="#" class="mobile__user"><svg class="svg__icon svg_mob-user"><use xlink:href="#icon-user"></use></svg>James</a>
+						<a href="#" class="mobile__close"><svg class="svg__icon svg_mob-close"><use xlink:href="#icon-close"></use></svg></a>
+					</div>
+					<div class="mobile__account m_b flex">
+						<a href="#" class="mob-account__item">Account preferences</a>
+						<a href="#" class="mob-account__item">Watchlists <span class="mob-account__sum">3</span></a>
+						<a href="#" class="mob-account__item">Change plan</a>
+					</div>
+					<div class="mobile__mnu m_b">
+						<a href="#" class="mob-extra__item">
+							<!-- <div class="mob-extra__icon">
+								<svg class="svg__icon svg_sites">
+									<use xlink:href="#icon-sites"></use>
+								</svg>
+							</div> -->
+							<div class="mob-extra__name">Sites</div>
+							<div class="mob-extra__count">2</div>
+						</a>
+						<a href="#" class="mob-extra__item">
+							<!-- <div class="mob-extra__icon">
+								<svg class="svg__icon svg_keywords">
+									<use xlink:href="#icon-keywords"></use>
+								</svg>
+							</div> -->
+							<div class="mob-extra__name">Keywords</div>
+							<div class="mob-extra__count">3</div>
+						</a>
+						<a href="#" class="mob-extra__item">
+							<!-- <div class="mob-extra__icon">
+								<svg class="svg__icon svg_app">
+									<use xlink:href="#icon-app"></use>
+								</svg>
+							</div> -->
+							<div class="mob-extra__name">App</div>
+							<div class="mob-extra__count">1</div>
+						</a>
+					</div>
+					<div class="mobile__mnu m_b flex">
+						<a href="#" class="mob-mnu__item">Tools</a>
+						<a href="#" class="mob-mnu__item">Pricing</a>
+						<a href="#" class="mob-mnu__item">Help</a>
+						<a href="#" class="mob-mnu__item js_lang">Language <img src="img/ic_arrow-right.png" alt="" class="mnu_icon"></a>
+						<a href="#" class="mob-mnu__item">Log out <svg class="svg__icon svg_logout"><use xlink:href="#icon-logout"></use></svg></a>
+					</div>
+					<div class="mobile__search m_b">
+						<form class="mobile_form form flex">
+							<input type="text" placeholder="Enter domain, keyword, apps ot URL" class="search__input">
+							<button class="form__btn"><span>Search</span></button>
+						</form>
+					</div>
+					<div class="mobile__lang">
+						<div class="mob-lang__head flex">
+							<a href="#" class="mob-lang_back js_close-lang"><svg class="svg__icon svg_back"><use xlink:href="#icon-prev"></use></svg>Back</a>
+							<a href="#" class="mob-lang_close js_close-lang"><svg class="svg__icon svg_mob-close"><use xlink:href="#icon-close"></use></svg></a>
+						</div>
+						<div class="mob-lang__wr flex">
+							<a href="#" class="mob-lang__item">English</a>
+							<a href="#" class="mob-lang__item">Русский</a>
+							<a href="#" class="mob-lang__item">German</a>
+							<a href="#" class="mob-lang__item">English</a>
+							<a href="#" class="mob-lang__item">Русский</a>
+							<a href="#" class="mob-lang__item">German</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="container">
+				<div class="content__header flex">
+					<div class="content-header__title">
+						<span>Analytics for <a href="#">google</a></span>
+						<span class="rating_wr">
+							<span class="rating" data-stars="1">
+								<svg class="svg__icon svg_rating-star" data-rating="1">
+									<use xlink:href="#icon-emptystar"></use>
+								</svg>
+								<svg class="svg__icon svg_rating-star" data-rating="2">
+									<use xlink:href="#icon-emptystar"></use>
+								</svg>
+								<svg class="svg__icon svg_rating-star" data-rating="3">
+									<use xlink:href="#icon-emptystar"></use>
+								</svg>
+								<svg class="svg__icon svg_rating-star" data-rating="4">
+									<use xlink:href="#icon-emptystar"></use>
+								</svg>
+								<svg class="svg__icon svg_rating-star" data-rating="5">
+									<use xlink:href="#icon-emptystar"></use>
+								</svg>
+							</span>
+						</span>
+					</div>
+					<div class="block__btn">
+						<a href="#" class="blue_btn">
+							<span class="icon_plus">+</span>
+							<span>Add to watchlist</span>
+						</a>
+					</div>
+				</div>
+				<div class="main">
+					<div class="main__content">
+						<div class="banner banner_large">
+							<a href="#">
+								<img src="img/banner1.jpg" alt="">
+							</a>
+						</div>
+						<div class="keywords__output">
+							<div class="output__header">
+								<div class="output__title">Best of google at Keyoptimize</div>
+								<div class="output__btn">
+									<a href="#keyworsdw" class="blue_btn btn_upper js_modal">
+										<span>
+											<svg class="svg__icon svg_download">
+												<use xlink:href="#icon-download"></use>
+											</svg>
+										</span>
+										<span>Download keywords</span>
+									</a>
+								</div>
+							</div>
+							<div class="output__item">
+								<div class="o-i__left">
+									<img src="img/output_img.jpg" alt="" class="o-i__img">
+								</div>
+								<div class="o-i__right">
+									<div class="o-i__title">Call Tracking Analytics Nexmo®</div>
+									<div class="o-i__text">Track call metadata to gain deeper insights for business decision making. Adnexmo.com/Analytics/Call+Tracking</div>
+									<div class="o-i__btn">
+										<a href="#" class="empty_btn empty_blue"><span>Visit site</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="output__topic">
+								<div class="topic__wr">
+									<div class="topic__left">Sites</div>
+									<div class="topic__right">Compare</div>
+								</div>
+							</div>
+							<div class="output__post-wr">
+								<div class="output__post">
+									<div class="post__wrap">
+										<div class="post__left">
+											<img src="img/post_img-1.jpg" alt="" class="post__img">
+										</div>
+										<div class="post__right">
+											<div class="post__top">
+												<div class="post__link">
+													<a href="#">en.wikipedia.org</a>
+												</div>
+												<div class="post__rating">
+													<span class="rating" data-stars="2">
+														<svg class="svg__icon svg_rating-star" data-rating="1">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="2">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="3">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="4">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="5">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+													</span>
+												</div>
+												<div class="post__position">
+													Position
+													<span class="positin_number">1</span>
+													<span class="position_rise">
+														<span>
+															<svg class="svg__icon svg_positionup">
+																<use xlink:href="#icon-positionup"></use>
+															</svg>
+														</span>
+														<span class="position_up">+4</span>
+													</span>
+												</div>
+												<div class="post__choose">
+													<label class="choose__label">
+														<input class="checkbox" type="checkbox" checked>
+														<span class="checkbox_custom">
+															<svg class="svg__icon svg_check">
+																<use xlink:href="#icon-check"></use>
+															</svg>
+														</span>
+													</label>
+												</div>
+											</div>
+											<div class="post__middle">
+												<div class="post__title">Wikipedia, the free encyclopedia</div>
+												<div class="post__descr">Wikipedia, the free encyclopedia Main Page From Wikipedia, the free encyclopedia Jump to: navigation , search Welcome to Wikipedia , the free encyclopedia that...</div>
+											</div>
+											<div class="post__bottom">
+												<div class="post__relevant">
+													<div class="relevant__wr">
+														<div class="relevant__title">Relevant links</div>
+														<div class="relevant__list">
+															<div class="relevant__item">
+																<div class="relevant__position">#14</div>
+																<a href="#" class="relevant__link">/Google-Chrome/3000-2356_4-10881381.html</a>
+															</div>
+															<div class="relevant__item">
+																<div class="relevant__position">#20</div>
+																<a href="#" class="relevant__link">/Google-Chrome/3000-2356_4-10sdfdv881381.html</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="post__btn-wr">
+													<a href="#" class="post__btn-share">
+														<img src="img/miniature_share.jpg" alt="" class="btn-miniature">
+														<span>Share</span>
+														<span class="btn-share_count">11</span>
+													</a>
+													<a href="#" class="post__btn-website"><span>Monitor the website</span></a>
+												</div>
+												<div class="mob-post__relevant visible-xs">
+													<div class="relevant__wr">
+														<div class="relevant__title">Links</div>
+														<div class="relevant__list">
+															<div class="relevant__item">
+																<div class="relevant__position">#14</div>
+																<a href="#" target="_blank" class="relevant__link">/Google-Chrome/3000-2356_4-10881381.html</a>
+															</div>
+															<div class="relevant__item">
+																<div class="relevant__position">#20</div>
+																<a href="#" target="_blank" class="relevant__link">/Google-Chrome/3000-2356_4-10sdfdv881381.html</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="mob-post__btns visible-xs">
+													<a href="#" class="post__btn-share">
+														<img src="img/miniature_share.jpg" alt="" class="btn-miniature">
+														<span class="btn-share_count">11</span>
+													</a>
+													<a href="#" class="post__btn-website"><span>Monitoring</span></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="output__post">
+									<div class="post__wrap">
+										<div class="post__left">
+											<img src="img/post_img-2.jpg" alt="" class="post__img">
+										</div>
+										<div class="post__right">
+											<div class="post__top">
+												<div class="post__link">
+													<a href="#">en.wikipedia.org</a>
+												</div>
+												<div class="post__rating">
+													<span class="rating" data-stars="2">
+														<svg class="svg__icon svg_rating-star" data-rating="1">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="2">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="3">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="4">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="5">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+													</span>
+												</div>
+												<div class="post__position">
+													Position
+													<span class="positin_number">1</span>
+													<span class="position_fall">
+														<span>
+															<svg class="svg__icon svg_positiondown">
+																<use xlink:href="#icon-positiondown"></use>
+															</svg>
+														</span>
+														<span class="position_down">-3</span>
+													</span>
+												</div>
+												<div class="post__choose">
+													<label class="choose__label">
+														<input class="checkbox" type="checkbox">
+														<span class="checkbox_custom">
+															<svg class="svg__icon svg_check">
+																<use xlink:href="#icon-check"></use>
+															</svg>
+														</span>
+													</label>
+												</div>
+											</div>
+											<div class="post__middle">
+												<div class="post__title">Wikipedia, the free encyclopedia</div>
+												<div class="post__descr">Wikipedia, the free encyclopedia Main Page From Wikipedia, the free encyclopedia Jump to: navigation , search Welcome to Wikipedia , the free encyclopedia that...</div>
+											</div>
+											<div class="post__bottom">
+												<div class="post__relevant">
+													<div class="relevant__wr">
+														<div class="relevant__title">Relevant links</div>
+														<div class="relevant__list">
+															<div class="relevant__item">
+																<div class="relevant__position">#14</div>
+																<a href="#" class="relevant__link">/Google-Chrome/3000-2356_4-10881381.html</a>
+															</div>
+															<div class="relevant__item">
+																<div class="relevant__position">#20</div>
+																<a href="#" class="relevant__link">/Google-Chrome/3000-2356_4-10sdfdv881381.html</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="post__btn-wr">
+													<a href="#" class="post__btn-share">
+														<img src="img/miniature_share.jpg" alt="" class="btn-miniature">
+														<span>Share</span>
+														<span class="btn-share_count">11</span>
+													</a>
+													<a href="#" class="post__btn-website"><span>Monitor the website</span></a>
+												</div>
+												<div class="mob-post__relevant visible-xs">
+													<div class="relevant__wr">
+														<div class="relevant__title">Links</div>
+														<div class="relevant__list">
+															<div class="relevant__item">
+																<div class="relevant__position">#14</div>
+																<a href="#" target="_blank" class="relevant__link">/Google-Chrome/3000-2356_4-10881381.html</a>
+															</div>
+															<div class="relevant__item">
+																<div class="relevant__position">#20</div>
+																<a href="#" target="_blank" class="relevant__link">/Google-Chrome/3000-2356_4-10sdfdv881381.html</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="mob-post__btns visible-xs">
+													<a href="#" class="post__btn-share">
+														<img src="img/miniature_share.jpg" alt="" class="btn-miniature">
+														<span class="btn-share_count">11</span>
+													</a>
+													<a href="#" class="post__btn-website"><span>Monitoring</span></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="output__post">
+									<div class="post__wrap">
+										<div class="post__left">
+											<img src="img/post_img-2.jpg" alt="" class="post__img">
+										</div>
+										<div class="post__right">
+											<div class="post__top">
+												<div class="post__link">
+													<a href="#">en.wikipedia.org</a>
+												</div>
+												<div class="post__rating">
+													<span class="rating" data-stars="2">
+														<svg class="svg__icon svg_rating-star" data-rating="1">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="2">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="3">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="4">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+														<svg class="svg__icon svg_rating-star" data-rating="5">
+															<use xlink:href="#icon-emptystar"></use>
+														</svg>
+													</span>
+												</div>
+												<div class="post__position">
+													Position
+													<span class="positin_number">1</span>
+													<span class="position_rise">
+														<span>
+															<svg class="svg__icon svg_positionup">
+																<use xlink:href="#icon-positionup"></use>
+															</svg>
+														</span>
+														<span class="position_up">+6</span>
+													</span>
+												</div>
+												<div class="post__choose">
+													<label class="choose__label">
+														<input class="checkbox" type="checkbox">
+														<span class="checkbox_custom">
+															<svg class="svg__icon svg_check">
+																<use xlink:href="#icon-check"></use>
+															</svg>
+														</span>
+													</label>
+												</div>
+											</div>
+											<div class="post__middle">
+												<div class="post__title">Wikipedia, the free encyclopedia</div>
+												<div class="post__descr">Wikipedia, the free encyclopedia Main Page From Wikipedia, the free encyclopedia Jump to: navigation , search Welcome to Wikipedia , the free encyclopedia that...</div>
+											</div>
+											<div class="post__bottom">
+												<div class="post__relevant">
+													<div class="relevant__wr">
+														<div class="relevant__title">Relevant links</div>
+														<div class="relevant__list">
+															<div class="relevant__item">
+																<div class="relevant__position">#14</div>
+																<a href="#" class="relevant__link">/Google-Chrome/3000-2356_4-10881381.html</a>
+															</div>
+															<div class="relevant__item">
+																<div class="relevant__position">#20</div>
+																<a href="#" class="relevant__link">/Google-Chrome/3000-2356_4-10sdfdv881381.html</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="post__btn-wr">
+													<a href="#" class="post__btn-share">
+														<img src="img/miniature_share.jpg" alt="" class="btn-miniature">
+														<span>Share</span>
+														<span class="btn-share_count">11</span>
+													</a>
+													<a href="#" class="post__btn-website"><span>Monitor the website</span></a>
+												</div>
+												<div class="mob-post__relevant visible-xs">
+													<div class="relevant__wr">
+														<div class="relevant__title">Links</div>
+														<div class="relevant__list">
+															<div class="relevant__item">
+																<div class="relevant__position">#14</div>
+																<a href="#" target="_blank" class="relevant__link">/Google-Chrome/3000-2356_4-10881381.html</a>
+															</div>
+															<div class="relevant__item">
+																<div class="relevant__position">#20</div>
+																<a href="#" target="_blank" class="relevant__link">/Google-Chrome/3000-2356_4-10sdfdv881381.html</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="mob-post__btns visible-xs">
+													<a href="#" class="post__btn-share">
+														<img src="img/miniature_share.jpg" alt="" class="btn-miniature">
+														<span class="btn-share_count">11</span>
+													</a>
+													<a href="#" class="post__btn-website"><span>Monitoring</span></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="compare_wr">
+									<div class="compare">
+										<a href="#" class="compare__btn">
+											<span class="compare_counter">2</span>
+											sites in comparison
+										</a>
+										<a href="#" class="compare__del">
+											<svg class="svg__icon svg_basket"><use xlink:href="#icon-basket"></use></svg>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="output__more">
+								<a href="#" class="show_more">
+									<span class="more_icon">
+										<svg class="svg__icon svg_showmore">
+											<use xlink:href="#icon-showmore"></use>
+										</svg>
+									</span>
+									<span class="more_text">Show more</span>
+								</a>
+							</div>
+						</div>
+						<div class="statistics">
+							<div class="statistic__box stat_analitycs">
+								<div class="block__header">
+									<div class="block__title">Keyword analytics</div>
+									<a href="#tooltip6" class="tooltip">
+										<div class="tooltip__icon">
+											<svg class="svg__icon svg_ask">
+												<use xlink:href="#icon-ask"></use>
+											</svg>
+										</div>
+										<div id="tooltip6" class="tooltip__content">Lorem ipsum dolor sit amet, dictumst lacus ipsum. Ipsum augue dui pellentesque arcu eget, at quis, anim nisl libero odit eget wisi blandit, aenean tristique integer pretium nisl vel pretium. Pulvinar et nullam felis donec at, phasellus pulvinar duis hendrerit magna interdum. </div>
+									</a>
+								</div>
+								<div class="statistic__options">
+									<div class="statistic__item">
+										<div class="statistic__key">Frequency</div>
+										<div class="statistic__value">Very high</div>
+									</div>
+									<div class="statistic__item">
+										<div class="statistic__key">Only adult</div>
+										<div class="statistic__value">No</div>
+									</div>
+									<div class="statistic__item">
+										<div class="statistic__key">Language</div>
+										<div class="statistic__value">English</div>
+									</div>
+									<div class="statistic__item">
+										<div class="statistic__key">Advertising index</div>
+										<div class="statistic__value">0.0</div>
+									</div>
+								</div>
+							</div>
+							<div class="statistic__box stat_search">
+								<div class="block__header">
+									<div class="block__title">Search interest over time</div>
+									<a href="#tooltip7" class="tooltip">
+										<div class="tooltip__icon">
+											<svg class="svg__icon svg_ask">
+												<use xlink:href="#icon-ask"></use>
+											</svg>
+										</div>
+										<div id="tooltip7" class="tooltip__content">Lorem ipsum dolor sit amet, dictumst lacus ipsum. Ipsum augue dui pellentesque arcu eget, at quis, anim nisl libero odit eget wisi blandit, aenean tristique integer pretium nisl vel pretium. Pulvinar et nullam felis donec at, phasellus pulvinar duis hendrerit magna interdum. </div>
+									</a>
+								</div>
+								<div class="block__graph">
+									<img src="img/graph_search.jpg" alt="" class="img_gag">
+								</div>
+							</div>
+						</div>
+						<div class="statistics">
+							<div class="statistic__box stat_popularity">
+								<div class="block__header">
+									<div class="block__title">Search interest over time</div>
+									<a href="#tooltip8" class="tooltip">
+										<div class="tooltip__icon">
+											<svg class="svg__icon svg_ask">
+												<use xlink:href="#icon-ask"></use>
+											</svg>
+										</div>
+										<div id="tooltip8" class="tooltip__content">Lorem ipsum dolor sit amet, dictumst lacus ipsum. Ipsum augue dui pellentesque arcu eget, at quis, anim nisl libero odit eget wisi blandit, aenean tristique integer pretium nisl vel pretium. Pulvinar et nullam felis donec at, phasellus pulvinar duis hendrerit magna interdum. </div>
+									</a>
+								</div>
+								<div class="block__graph">
+									<img src="img/graph-popularity.jpg" alt="" class="img_gag">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main__sidebar">
+						<div id="banner_mid" class="banner banner_middle">
+							<a href="#">
+								<img src="img/banner2.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer" class="footer flex">
+			<div class="footer__copyright">2017 © KeyOptimize.com</div>
+			<div class="footer__menu">
+				<a href="#" class="footer-menu__item">Payments by Tap2pay</a>
+				<a href="#" class="footer-menu__item">Terms of Service</a>
+				<a href="#" class="footer-menu__item">Contacts</a>
+			</div>
+		</div>
+
+		<div id="signup" class="modal_signup mfp-hide">
+			<div class="login__title">Sign up</div>
+			<a href="#" class="login__quick"><i class="ic_gplus"><svg class="svg__icon svg_gplus"><use xlink:href="#icon-gplus"></use></svg></i>sign up with google</a>
+			<div class="login__or"><span>or</span></div>
+			<form action="#" class="login__form">
+				<input type="email" placeholder="Email" class="login__input input_error" required>
+				<input type="password" placeholder="Password" class="login__input" required>
+				<button class="login__btn">Create an account</button>
+			</form>
+			<div class="login__info">Already have an account? <a href="#">Sign in</a></div>
+
+			<button title="Close (Esc)" type="button" class="mfp-close signup_close"><!-- <svg class="svg__icon svg_signup-close"><use xlink:href="#icon-close"></use></svg> --></button>
+		</div>
+
+		<div id="search" class="modal_looking mfp-hide">
+			<div class="looking__wrapper">
+				<div class="looking__header">
+					<div class="looking__search">
+						<form action="#" class="looking-search__form">
+							<input type="text" class="looking__input">
+							<button type="submit" class="looking__btn">
+								<svg class="svg__icon svg_lookloupe"><use xlink:href="#icon-loupe"></use></svg>
+							</button>
+							<button type="reset" class="looking__reset"><svg class="svg__icon svg_lookreset"><use xlink:href="#icon-close"></use></svg></button>
+						</form>
+					</div>
+					<div class="looking__tabs flex">
+						<a href="#" class="looking-tab__item looking-tab_active">All</a>
+						<a href="#" class="looking-tab__item">App</a>
+						<a href="#" class="looking-tab__item">Websites</a>
+						<a href="#" class="looking-tab__item">Services</a>
+						<a href="#" class="looking-tab__item">Products</a>
+						<a href="#" class="looking-tab__item">Companies</a>
+						<a href="#" class="looking-tab__item">People</a>
+					</div>
+				</div>
+				<div class="looking__body">
+					<div class="looking-block__wr">
+						<div class="lb">
+							<div class="lb__header flex">
+								<div class="lb__title">
+									<a href="#" class="lb__name">Keywords</a>
+									<span class="lb__count">(10)</span>
+								</div>
+								<a href="#" class="lb__seeall">See all</a>
+							</div>
+							<div class="lb__body">
+								<a href="#" class="lb__item">home</a>
+								<a href="#" class="lb__item">homes</a>
+								<a href="#" class="lb__item">homeless</a>
+							</div>
+						</div>
+						<div class="lb">
+							<div class="lb__header flex">
+								<div class="lb__title">
+									<a href="#" class="lb__name">URLs</a>
+									<span class="lb__count">(150)</span>
+								</div>
+								<a href="#" class="lb__seeall">See all</a>
+							</div>
+							<div class="lb__body">
+								<div class="result__item urls flex">
+									<div class="result__left">
+										<img src="img/img_urls.png" alt="" class="result__img">
+									</div>
+									<div class="result__right">
+										<a href="#" class="result__name">home.com</a>
+										<div class="result__descr">Интернет-магазин и корпоративный сайт ОМА. Интернет-магазин «ОМА». Интернет-магазины. Адаптивный дизайн. Корпоративные сайты.</div>
+									</div>
+								</div>
+								<div class="result__item urls flex">
+									<div class="result__left">
+										<img src="img/img_urls.png" alt="" class="result__img">
+									</div>
+									<div class="result__right">
+										<a href="#" class="result__name">home.com</a>
+										<div class="result__descr">Интернет-магазин и корпоративный сайт ОМА. Интернет-магазин «ОМА». Интернет-магазины. Адаптивный дизайн. Корпоративные сайты.</div>
+									</div>
+								</div>
+								<div class="result__item urls flex">
+									<div class="result__left">
+										<img src="img/img_urls.png" alt="" class="result__img">
+									</div>
+									<div class="result__right">
+										<a href="#" class="result__name">home.com</a>
+										<div class="result__descr">Интернет-магазин и корпоративный сайт ОМА. Интернет-магазин «ОМА». Интернет-магазины. Адаптивный дизайн. Корпоративные сайты.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="lb">
+							<div class="lb__header flex">
+								<div class="lb__title">
+									<a href="#" class="lb__name">APPs</a>
+									<span class="lb__count">(150)</span>
+								</div>
+								<a href="#" class="lb__seeall">See all</a>
+							</div>
+							<div class="lb__body">
+								<div class="result__item apps flex">
+									<div class="result__left">
+										<img src="img/img_apps.png" alt="" class="result__img">
+									</div>
+									<div class="result__right">
+										<a href="#" class="result__name">home.com</a>
+										<div class="result__descr">Интернет-магазин и корпоративный сайт ОМА. Интернет-магазин «ОМА». Интернет-магазины. Адаптивный дизайн. Корпоративные сайты.</div>
+									</div>
+								</div>
+								<div class="result__item apps flex">
+									<div class="result__left">
+										<img src="img/img_apps.png" alt="" class="result__img">
+									</div>
+									<div class="result__right">
+										<a href="#" class="result__name">home.com</a>
+										<div class="result__descr">Интернет-магазин и корпоративный сайт ОМА. Интернет-магазин «ОМА». Интернет-магазины. Адаптивный дизайн. Корпоративные сайты.</div>
+									</div>
+								</div>
+								<div class="result__item apps flex">
+									<div class="result__left">
+										<img src="img/img_apps.png" alt="" class="result__img">
+									</div>
+									<div class="result__right">
+										<a href="#" class="result__name">home.com</a>
+										<div class="result__descr">Интернет-магазин и корпоративный сайт ОМА. Интернет-магазин «ОМА». Интернет-магазины. Адаптивный дизайн. Корпоративные сайты.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="results__all">
+						<a href="#" class="see_more">See all results</a>
+					</div>
+				</div>
+			</div>
+
+			<button title="Close (Esc)" type="button" class="mfp-close looking_close"><!-- <svg class="svg__icon svg_look-close"><use xlink:href="#icon-close"></use></svg> --></button>
+		</div>
+
+		<div id="keyworsdw" class="modal_keywords mfp-hide">
+			<div class="md-keywords__title">Download keywords</div>
+			<div class="md-keywords__descr">You can download all keywords or selective items.</div>
+			<div class="md-keywords__wr">
+				<div class="md-keywords__item">
+					<label class="choose__label">
+						<input class="checkbox" type="checkbox" checked>
+						<span class="checkbox_custom">
+							<svg class="svg__icon svg_check">
+								<use xlink:href="#icon-check"></use>
+							</svg>
+						</span>
+						<div class="md-keywords__name">All</div>
+					</label>
+				</div>
+				<div class="md-keywords__item">
+					<label class="choose__label">
+						<input class="checkbox" type="checkbox">
+						<span class="checkbox_custom">
+							<svg class="svg__icon svg_check">
+								<use xlink:href="#icon-check"></use>
+							</svg>
+						</span>
+						<div class="md-keywords__name">1-5 positions</div>
+					</label>
+				</div>
+				<div class="md-keywords__item">
+					<label class="choose__label">
+						<input class="checkbox" type="checkbox">
+						<span class="checkbox_custom">
+							<svg class="svg__icon svg_check">
+								<use xlink:href="#icon-check"></use>
+							</svg>
+						</span>
+						<div class="md-keywords__name">6-10 positions</div>
+					</label>
+				</div>
+				<div class="md-keywords__item">
+					<label class="choose__label">
+						<input class="checkbox" type="checkbox">
+						<span class="checkbox_custom">
+							<svg class="svg__icon svg_check">
+								<use xlink:href="#icon-check"></use>
+							</svg>
+						</span>
+						<div class="md-keywords__name">10-50 positions</div>
+					</label>
+				</div>
+			</div>
+			<button class="md-keywords__button"><span>Download</span></button>
+
+			<button title="Close (Esc)" type="button" class="mfp-close signup_close"><!-- <svg class="svg__icon svg_signup-close"><use xlink:href="#icon-close"></use></svg> --></button>
+		</div>
+
+	</div>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
